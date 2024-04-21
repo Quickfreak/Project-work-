@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 200vh;
+    background-image: linear-gradient(rgba(180, 97, 26, 0.904));
+    background-position:top;
+    background-size: top;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+.col{
+    flex-basis: auto;
+     color: rgb(250, 250, 250);
+    
+}
+
+.row{
+    display: flex;
+    height: fit-content;
+   align-items: center;
+}
+
+h1{
+    color: aqua;
+    font-size: 100px;
+
+}
+p{
+    color: rgb(216, 215, 215);
+    font-size: 23px;
+    line-height: 25px;
+}
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 50px 55px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:10px 160px;
+   
+    background-position:center;
+
+}
+
+.card1{
+    background-image: url(Raralake.jpg);
+    
+}
+
+.card2{
+    background-image: url(fewa\ lake.jpg);
+}
+
+.card3{
+    background-image: url(Begnas\ lake.jpg);
+    
+}
+
+.card4{
+    background-image: url(Tilicho\ Lake.jpg);
+}
+
+.card5{
+    background-image: url(Gosaikunda\ Lake.jpg);
+}
+
+.card6{
+    background-image: url(shey\ phoskundo\ lake.jpg);
+}
+
+.card7{
+    background-image: url(Gokyo\ Lakes.jpg);
+}
+.h2{ color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+h5{
+    color: black;
+    font-size: medium;
+}
+h6{
+    color: rgb(234, 222, 222);
+    font-size: medium;
+}
